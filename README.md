@@ -1,2 +1,2 @@
 # TestingBuildStatus
-Faster feedback loop from Azure build pipeline
+Fast feedback loop from Azure build pipeline
