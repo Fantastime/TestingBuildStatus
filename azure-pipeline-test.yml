@@ -18,3 +18,8 @@ jobs:
     steps:
       - script: echo Hello World
         displayName: Hello World
+      - script: echo artifact > artifact.txt
+      - task: PublishBuildArtifacts@1
+        inputs:
+          pathToPublish: 'artifact.txt'
+          artifactName: testArtifact
