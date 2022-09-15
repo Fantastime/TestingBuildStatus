@@ -1,0 +1,16 @@
+{
+	"id": "1.21_head-8",
+	"name": "2022 Live",
+	"release_target": "1.21",
+	"world_version": 3301,
+	"series_id": "main",
+	"protocol_version": 1073741927,
+	"pack_version": {
+	"resource": 9,
+	"data": 10
+},
+	"build_time": "2022-09-13T07:02:15+00:00",
+	"java_component": "java-runtime-gamma",
+	"java_version": 17,
+	"stable": false
+}
