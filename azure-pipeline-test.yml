@@ -18,7 +18,7 @@ jobs:
     steps:
       - script: echo Hello World
         displayName: Hello World
-      - script: echo artifact > artifact.txt
+      - script: echo artifact > version.json
       - task: PublishBuildArtifacts@1
         inputs:
           pathToPublish: 'version.json'
